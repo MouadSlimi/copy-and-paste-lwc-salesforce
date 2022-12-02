@@ -1,0 +1,19 @@
+<template>
+	<div style="width: 20rem;">
+		<lightning-card>
+			<!-- <h3 class="title" slot="title">
+				<a href="javascript:void(0);">Link: {link}</a>
+			</h3> -->
+			<lightning-input type="text" label="Link" value={link} disabled>
+			</lightning-input>
+			<lightning-button-icon icon-name="utility:copy" alternative-text="Copy" class="slds-m-left_xx-small" title="Copy"
+				onclick={copyText}>
+			</lightning-button-icon>
+			<!-- <lightning-button-menu icon-size="xx-small" alternative-text="Actions" slot="actions">
+				<lightning-menu-item value="Copy" label="Copy" onclick={copyDay}></lightning-menu-item>
+			</lightning-button-menu> -->
+
+		</lightning-card>
+	</div>
+	<input disabled class="my-class" style="position:fixed;top:-5rem;height:1px;width:10px;"></input>
+</template>

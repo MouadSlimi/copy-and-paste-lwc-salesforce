@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/mouadslimi.lwc-lb6hvhip-fork-lb6m5p3z",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve YEQz0yrcgVCPDgzZNnJ0 --open"
+  }
+}
